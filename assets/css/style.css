@@ -1,0 +1,71 @@
+body {
+    border: border-radius;
+    background: blue;
+  }
+  
+  #solveForm {
+    max-width: 100px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  .hangicon {
+    width: 100px;
+    height: auto;
+    float: right;
+    display: table;
+      overflow: auto;
+      margin-top:5px;
+  }
+  
+  h1.heel {
+    font-size: 70px;
+    text-align: center;
+      margin:5px;
+      margin-bottom: 5px;
+    animation: letterspacing 1.2s 1;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 0 auto;
+  }
+  
+  p{
+      margin-top:10px;
+  }
+  
+  input {
+    margin: 8px;
+    max-width: 30px;
+    border-radius: 4px;
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+  
+  }
+  
+  #buttonlettersDiv.keybutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+      clear: both;
+  }
+  
+  .jumbotron {
+    margin-top: 5px;
+    background: red;
+    padding: 0px;
+  }
+  
+  .wrapper{
+    margin:0px 250px;
+  }
+  
+  #lettersDiv{
+    margin-left: center;
+  }
+  

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- bootstrap cdn-->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<title>HangMan</title>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="jumbotron" jumbotron>
+
+			<h1 class="heel">West Africa Country Names
+				 <img class="hangicon" src="assets/images/ghana.png" alt="">
+			 </h1>
+
+			<p>Guess correctly or lose</p>
+
+			<h3>Press any key to start the game or Press button on the screen</h3>
+
+		</div>
+
+		<div id="buttonkeysdiv" class="keybutton">
+
+			<button class="keypress btn btn-primary">a</button>
+
+			<button class="keypress btn btn-primary">b</button>
+
+			<button class="keypress btn btn-primary">c</button>
+
+			<button class="keypress btn btn-primary">d</button>
+
+			<button class="keypress btn btn-primary">e</button>
+
+			<button class="keypress btn btn-primary">f</button>
+
+			<button class="keypress btn btn-primary">g</button>
+
+			<button class="keypress btn btn-primary">h</button>
+
+			<button class="keypress btn btn-primary">i</button>
+
+			<button class="keypress btn btn-primary">j</button>
+
+			<button class="keypress btn btn-primary">k</button>
+
+			<button class="keypress btn btn-primary">l</button>
+
+			<button class="keypress btn btn-primary">m</button>
+
+			<button class="keypress btn btn-primary">n</button>
+
+			<button class="keypress btn btn-primary">o</button>
+
+			<button class="keypress btn btn-primary">p</button>
+
+			<button class="keypress btn btn-primary">q</button>
+
+			<button class="keypress btn btn-primary">r</button>
+
+			<button class="keypress btn btn-primary">s</button>
+
+			<button class="keypress btn btn-primary">t</button>
+
+			<button class="keypress btn btn-primary">u</button>
+
+			<button class="keypress btn btn-primary">v</button>
+
+			<button class="keypress btn btn-primary">w</button>
+
+			<button class="keypress btn btn-primary">x</button>
+
+			<button class="keypress btn btn-primary">y</button>
+
+			<button class="keypress btn btn-primary">x</button>
+
+		</div>
+
+		<!-- displays game question -->
+
+		<h2 id="guess"></h2>
+
+		<!-- displays generated letters -->
+
+		<div class="wrapper">
+				<div id="lettersDiv"></div>
+		</div>
+
+
+
+		<h4> Guesses remaining:
+
+			<div id="remainingGuesses">7</div>
+
+		</h4>
+
+		<h4> Wins:
+
+			<div id="numberOfWins">0</div>
+
+		</h4>
+
+		<!--
+
+		<h4> Loses: </h4>
+
+		<div class="numberOfLosses"></div>
+
+
+		<!- Restarts Game -->
+
+		<button type="button" class="btn" value="New Game" onClick="window.location.reload()">Restart</button>
+
+	</div>
+
+	<!-- Start //////////////////////////////////////////////////////////////////////////Java Script -->
+
+	<script src="assets/js/game.js">
+	</script>
+
+</body>
+
+</html>
